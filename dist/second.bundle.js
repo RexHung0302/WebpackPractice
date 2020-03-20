@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('Hello Webpackkkkkk')\n\n//# sourceURL=webpack:///./second.js?");
+eval("var habit = [\"Write Code\", \"Watch Udemy\", \"DeBug\", \"Sleep\"];\nhabit.forEach(function (item, index) {\n  return console.log(\"\".concat(index, \" => \").concat(item));\n});\n\n//# sourceURL=webpack:///./second.js?");
 
 /***/ })
 

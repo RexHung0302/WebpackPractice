@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("function component() {\n    var element = document.createElement('div');\n\n    // Lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的\n    element.innerHTML = _.join(['Hello', 'webpack'], ' ');\n\n    return element;\n}\n\ndocument.body.appendChild(component());\n\n//# sourceURL=webpack:///./index.js?");
+eval("function component() {\n  var element = document.createElement('div'); // Lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的\n\n  element.innerHTML = _.join(['Hello', 'webpack'], ' ');\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ })
 
