@@ -1,3 +1,6 @@
+//- 載入 CSS
+import '../scss/all.scss';
+
 function component() {
     var element = document.createElement('div');
 

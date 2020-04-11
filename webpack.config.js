@@ -10,7 +10,6 @@ module.exports = {
     entry: {
         main: './index.js',
         second: './second.js',
-        cover: './scss/cover.scss'
     },
     // 出口
     output: {
